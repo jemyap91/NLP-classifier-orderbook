@@ -1,0 +1,9 @@
+transformers==4.43.0
+datasets==2.20.0
+accelerate>=0.26.0
+evaluate>=0.4.1
+scikit-learn>=1.4
+pandas>=2.1
+pyarrow>=14,<20           # keep <20 if you use RAPIDS elsewhere
+mlflow>=2.13
+adlfs>=2024.4.0           # access ADLS from pandas if needed
